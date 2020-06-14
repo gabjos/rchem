@@ -1,7 +1,6 @@
 
 
-body{
-font-family: gotham;}
+
 
 
 
@@ -196,7 +195,7 @@ nav ul li a:hover{
 
 
 #header {
-  height: 100px;
+  height: 90px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
