@@ -348,12 +348,12 @@ let page = 0;
             page = page + go;
             if(page < 0 )page = 0;
             if(page > done) page = done;
-            //console.log(page);
+            console.log(page);
                     if ($(window).width() >= 800 ) {$('html, body').animate({
         scrollTop: vh*page
       });}
       
-        setTimeout(function(){clock = 0}, 700);
+        setTimeout(function(){clock = 0}, 1000);
        
     }
     }
